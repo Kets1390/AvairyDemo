@@ -13,8 +13,8 @@ import com.aviary.android.feather.sdk.IAviaryClientCredentials;
 public class MainApplication extends Application implements IAviaryClientCredentials {
 
     /* Be sure to fill in the two strings below. */
-    private static final String CREATIVE_SDK_CLIENT_ID = "4543f5c8908846f8a12b444831121103";
-    private static final String CREATIVE_SDK_CLIENT_SECRET = "8146e9a0-e1cf-43a2-9839-be571ee7d30d";
+    private static final String CREATIVE_SDK_CLIENT_ID = "your client id";
+    private static final String CREATIVE_SDK_CLIENT_SECRET = "secret id";
 
     @Override
     public void onCreate() {
